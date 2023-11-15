@@ -10,3 +10,8 @@ else:
     print("Fibonacci series")
     for i in range(a):
         print(fibo(i),end=" ")
+
+OUTPUT:
+Enter the number:10
+Fibonacci series
+0 1 1 2 3 5 8 13 21 34 
