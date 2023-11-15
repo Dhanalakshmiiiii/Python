@@ -1,0 +1,9 @@
+binary=input("Enter the binary:")
+print("Binary:",binary)
+decimal=int(binary,2)
+print("Decimal:",decimal)
+
+OUTPUT:
+Enter the binary:1000
+Binary: 1000
+Decimal: 8
