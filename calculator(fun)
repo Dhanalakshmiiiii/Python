@@ -1,0 +1,37 @@
+def add(x,y):
+    return x + y
+def subtract(x,y):
+    return x - y
+def multiply(x,y):
+    return x * y
+def divide(x,y):
+    return(x / y)
+print("Select operation:")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+n=int(input("Enter n:"))
+m=int(input("Enter m:"))
+choice=int(input("Enter your choice:"))
+if choice==1:
+    print(n ,"+", m ,"=" ,add(n,m))
+elif choice==2:
+    print(n ,"-" ,m ,"=" ,subtract(n,m))
+elif choice==3:
+    print(n ,"*" ,m ,"=" ,multiply(n,m))
+elif choice==4:
+    print(n ,"/" ,m ,"=" ,divide(n,m))
+else:
+    print("Invalid")
+
+OUTPUT:
+Select operation:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter n:2
+Enter m:3
+Enter your choice:1
+2 + 3 = 5
