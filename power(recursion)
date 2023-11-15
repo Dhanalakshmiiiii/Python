@@ -6,3 +6,8 @@ def power(num,exp):
 num=int(input("Enter the number:"))
 exp=int(input("Enter the exponential value:"))
 print("Result:",power(num,exp))
+
+OUTPUT:
+Enter the number:5
+Enter the exponential value:2
+Result: 25
