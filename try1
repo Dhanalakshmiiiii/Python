@@ -1,0 +1,14 @@
+a=10
+b=2
+try:
+    c=a/b
+    print(c)
+except:
+    print("Division is not possible")
+else:
+    print("Thank you")
+
+OUTPUT:
+
+5.0
+Thank you
