@@ -1,0 +1,10 @@
+f1=open("hello.txt","r")
+data=f1.read()
+print(data)
+
+
+
+
+OUTPUT
+Hello World
+This is python text file
